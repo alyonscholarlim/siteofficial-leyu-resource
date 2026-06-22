@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aoke · 主题索引</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #f8f6f2;
+            font-family: 'Georgia', 'Noto Serif SC', 'Source Serif Pro', serif;
+            color: #2e2b28;
+            line-height: 1.65;
+            padding: 2.5rem 1.2rem;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            font-weight: 450;
+            letter-spacing: 0.02em;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 0.25rem;
+            border-bottom: 1px solid #d6cfc4;
+            padding-bottom: 0.5rem;
+            color: #35302b;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #6f665c;
+            margin-bottom: 2.4rem;
+            border-bottom: 1px dashed #dad3c9;
+            padding-bottom: 0.75rem;
+        }
+        .hero-shelf {
+            background: #f2ede6;
+            padding: 2rem 2rem 1.6rem;
+            border-radius: 4px;
+            margin-bottom: 2.2rem;
+            border-left: 4px solid #b8aa99;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+        }
+        .hero-shelf p {
+            font-size: 1.08rem;
+        }
+        .directory-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.8rem;
+            margin: 2.8rem 0 2.4rem;
+        }
+        .dir-card {
+            background: #fcfaf7;
+            border: 1px solid #e3dbd0;
+            padding: 1.4rem 1.5rem 1.2rem;
+            border-radius: 3px;
+            transition: box-shadow 0.15s ease;
+        }
+        .dir-card:hover {
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            border-color: #c9bcad;
+        }
+        .dir-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #4b433c;
+        }
+        .dir-card p {
+            font-size: 0.95rem;
+            color: #4b443b;
+        }
+        .highlight-box {
+            background: #f0ece4;
+            padding: 1.6rem 2rem;
+            border-radius: 4px;
+            border-left: 5px solid #a8957e;
+            margin: 2rem 0 2.2rem;
+            font-style: normal;
+        }
+        .highlight-box strong {
+            color: #3d352e;
+            font-weight: 550;
+        }
+        .info-panel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.8rem;
+            margin: 2.2rem 0 1.8rem;
+            padding: 1.2rem 0;
+            border-top: 1px solid #e2d9ce;
+            border-bottom: 1px solid #e2d9ce;
+        }
+        .info-item {
+            flex: 1 1 200px;
+        }
+        .info-item h4 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #887b6c;
+            margin-bottom: 0.3rem;
+            font-weight: 400;
+        }
+        .info-item p {
+            font-size: 0.95rem;
+        }
+        .faq-mini {
+            margin: 2.6rem 0 3rem;
+        }
+        .faq-mini details {
+            border-bottom: 1px solid #ddd6cb;
+            padding: 0.8rem 0;
+        }
+        .faq-mini summary {
+            font-weight: 450;
+            cursor: pointer;
+            color: #4a4139;
+            padding: 0.2rem 0;
+        }
+        .faq-mini details p {
+            margin: 0.6rem 0 0.2rem 1.2rem;
+            color: #4d453d;
+            font-size: 0.96rem;
+        }
+        .sentence-link {
+            color: #735e4b;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #cbbdb0;
+            transition: color 0.1s;
+        }
+        .sentence-link:hover {
+            color: #3f342b;
+            text-decoration-color: #7a6a59;
+        }
+        .footnote {
+            margin-top: 3.5rem;
+            padding-top: 1.2rem;
+            border-top: 1px solid #d9d0c5;
+            font-size: 0.85rem;
+            color: #7a7065;
+        }
+        @media (max-width: 600px) {
+            body { padding: 1.5rem 1rem; }
+            h1 { font-size: 1.9rem; }
+            .directory-grid { grid-template-columns: 1fr; gap: 1rem; }
+            .hero-shelf { padding: 1.5rem 1.2rem; }
+            .highlight-box { padding: 1.2rem 1.2rem; }
+            .info-panel { flex-direction: column; gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>aoke · 主题知识库</h1>
+<div class="subhead">目录式索引 · 围绕关键词展开的内容梳理</div>
+
+<div class="hero-shelf">
+    <p>一个关键词往往指向一片交错的脉络。<strong>aoke</strong> 在此处并非孤立的标签，而是一个可以持续展开的切入点。下面的目录卡片汇集了与主题相关的几个基本面向，每一条都指向更具体的论述与材料。你可以将它们视为进入整个知识底图的索引节点。</p>
+</div>
+
+<!-- 目录感布局：四个卡片 -->
+<div class="directory-grid">
+    <div class="dir-card">
+        <h3>· 源流与词义</h3>
+        <p>从语词的形成到概念的演变，梳理 aoke 在具体语境中的用法层累。包含早期文本引用、语义迁移节点以及当代的再定义。</p>
+    </div>
+    <div class="dir-card">
+        <h3>· 结构与方法</h3>
+        <p>围绕 aoke 所关联的分析框架与工具视角，讨论其内部构成、类型划分以及可操作的研究路径。适用于主题拆解与系统整理。</p>
+    </div>
+    <div class="dir-card">
+        <h3>· 案例与情境</h3>
+        <p>选取若干典型实例，展示 aoke 在不同场景下的实际应用与衍变。每个案例附带简注，方便横向对比与引申阅读。</p>
+    </div>
+    <div class="dir-card">
+        <h3>· 参照与边界</h3>
+        <p>辨析邻近概念，划定 aoke 的意义范围。通过与相似术语的对照，明确其独特面向，同时避免过度泛化。</p>
+    </div>
+</div>
+
+<!-- 说明区 + 提示框融合 -->
+<div class="highlight-box">
+    <strong>提示：</strong> 目录卡片仅为索引起点，每一板块均包含更细分的条目与注释。建议依照个人兴趣顺序浏览，也可直接跳至相关 FAQ 摘要部分寻找具体问题的对应位置。本页内容保持定期更新，与主站 <a href="https://index-aoke.com" class="sentence-link">aoke</a> 同步。
+</div>
+
+<!-- 相关信息区 -->
+<div class="info-panel">
+    <div class="info-item">
+        <h4>适用场景</h4>
+        <p>学术笔记整理 · 专题文献回顾 · 概念图谱构建 · 写作素材组织</p>
+    </div>
+    <div class="info-item">
+        <h4>内容性质</h4>
+        <p>知识库条目 · 分析性概述 · 参考文献链 · 讨论备忘录</p>
+    </div>
+    <div class="info-item">
+        <h4>更新周期</h4>
+        <p>根据材料积累不定期补充，每次更新会同步至主站索引页</p>
+    </div>
+</div>
+
+<!-- FAQ 摘要 -->
+<div class="faq-mini">
+    <h3 style="font-size:1.1rem; margin-bottom:0.6rem; color:#4b433c;">常见问题摘要</h3>
+    <details>
+        <summary>如何理解 aoke 的核心指向？</summary>
+        <p>aoke 并非单一定义，其含义取决于具体语境。本库采用谱系式整理，既保留原始用法，也记录后续延伸。建议从「源流与词义」卡片入手。</p>
+    </details>
+    <details>
+        <summary>目录中的“案例与情境”是否有代表性？</summary>
+        <p>所选案例覆盖不同时期与领域，侧重于揭示结构共性而非个案特殊性。每个案例末尾附有补充阅读建议。</p>
+    </details>
+    <details>
+        <summary>我可以贡献内容或提出修正吗？</summary>
+        <p>本知识库目前以内部整理为主，但欢迎通过主站 <a href="https://index-aoke.com" class="sentence-link">aoke</a> 提供的联系方式提交参考材料或勘误。</p>
+    </details>
+</div>
+
+<div class="footnote">
+    <p>索引页面 · 基于当前整理版本 · 内容持续迭代</p>
+</div>
+
+</body>
+</html>
